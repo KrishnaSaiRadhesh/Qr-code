@@ -7,6 +7,9 @@ While they may look simple, QR codes are capable of storing lots of data. But no
 
 A QR code is a type of barcode that can be read easily by a digital device and which stores information as a series of pixels in a square-shaped grid. QR codes are frequently used to track information about products in a supply chain and – because many smartphones have built-in QR readers – they are often used in marketing and advertising campaigns.
 
+BAR CODE:
+
+A barcode reader (or barcode scanner) is an optical scanner that can read printed barcodes, decode the data contained in the barcode and send the data to a computer. Like a flatbed scanner, it consists of a light source, a lens and a light sensor for translating optical impulses into electrical signals. Additionally, nearly all barcode readers contain decoder circuitry that can analyse the barcode's image data provided by the sensor and send the barcode's content to the scanner's output port.
 
 Here in this program select an option to read or make qr code/bar code
 
