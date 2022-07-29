@@ -113,14 +113,14 @@ def makeBarcode():
             my_code.save(name)
             myCode = cv2.imread(name+".png")
             cv2.imshow(name,myCode)
-            cv2.waitKey(0)
+          
 
         else:
             print("Error! Invalid Choice!")
 
 userChoice = input("Select an option:\n1) Read\n2) Make\n")
 if userChoice == '1':
-    userChoice = input("1) QR\n2) Barcode\nWhat to Read : ")
+    userChoice = input("1) QR\n2) Barcode\nWhat to Read or Make : ")
     if userChoice == '1':
         readQR()
     elif userChoice == '2':
